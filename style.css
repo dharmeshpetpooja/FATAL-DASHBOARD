@@ -1,1 +1,33 @@
+body {
+  font-family: Arial;
+  background: #f4f6f9;
+  text-align: center;
+}
 
+.kpi-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.red {
+  background: #ffe5e5;
+}
+
+.green {
+  background: #e5ffe5;
+}
+
+canvas {
+  width: 80% !important;
+  margin: auto;
+}
