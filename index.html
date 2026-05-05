@@ -1,1 +1,36 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fatal Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>Fatal Dashboard</h1>
+
+<div class="kpi-container">
+  <div class="card">
+    <h3>Total Trainings</h3>
+    <p id="totalTraining">0</p>
+  </div>
+
+  <div class="card red">
+    <h3>Total Fatals</h3>
+    <p id="totalFatal">0</p>
+  </div>
+
+  <div class="card green">
+    <h3>Fatal %</h3>
+    <p id="fatalPercent">0%</p>
+  </div>
+</div>
+
+<canvas id="trainerChart"></canvas>
+
+<script src="app.js"></script>
+
+</body>
+</html>
